@@ -124,6 +124,12 @@ aside {
     }
 }
 
+.odrazka {
+    display: list-item;
+    list-style-type: square;
+    margin-left: 35px;
+}
+
 .content {
     color: var(--text-color-dark);
     padding: 40px 40px 0 40px;
@@ -133,11 +139,6 @@ aside {
         margin-bottom: 15px;
     }
 
-    & .odrazka {
-        display: list-item;
-        list-style-type: square;
-        margin-left: 35px;
-    }
 
     & p {
         margin-bottom: 10px;
@@ -201,6 +202,10 @@ aside {
 
             #Figma {
                 --bar-width: 10%
+            }
+
+            #Github {
+                --bar-width: 25%
             }
         }
     }
